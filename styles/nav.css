@@ -1,0 +1,99 @@
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 5%;
+    width: 90%;
+    background-color: var(--cor-branco);
+    position: fixed;
+    box-shadow: 0 0 10px 0 var(--cor-preto);
+}
+.navegacao__logo{
+    width: 50px;
+    height: 50px;
+}
+.navegacao__empresa{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.navegacao__espaco{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    color: var(--cor-preto);
+    background-color: var(--cor-branco);
+    width: auto;
+    height: auto;
+    transition: all .5s;
+    box-shadow: 0 10px 10px 0 var(--cor-preto);
+}
+#menu:checked ~ .navegacao__espaco{
+    display: block;
+    display: flex;
+}
+.navegacao__espaco__itens{
+    display: block;
+    display: flex;
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+    font-size: var(--size-h3);
+    text-decoration: none;
+    color: var(--cor-preto);
+    padding: 1.5rem 1rem;
+}
+.navegacao__label{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.navegacao__input{
+    display: none;
+}
+.navegacao__menu-hamburguer{
+    background-image: url(../images/Menu.svg);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+}
+#menu:checked ~ .navegacao__label > .navegacao__menu-hamburguer{
+    background-image: url(../images/close.svg);
+}
+.navegacao__empresa__nome__titulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: var(--size-h3);
+}
+.container__logo{
+    color: var(--cor-azul);
+    padding: 0;
+}
+.navegacao__empresa__nome__subtitulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--cor-azul);
+}
+@media (min-width: 800px) {
+    .navegacao{
+        padding: 2% 0;
+        width: 100%;
+    }
+    .navegacao__label{
+        padding-right: 1%;
+    }
+    .navegacao__logo{
+        padding-left: 1%;
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (min-width: 1024px) {
+
+}

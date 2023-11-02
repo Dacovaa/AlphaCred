@@ -1,0 +1,55 @@
+@import url(header.css);
+@import url(nav.css);
+@import url(main.css);
+@import url(footer.css);
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+:root{
+    --fonte-primaria:'Montserrat', sans-serif;
+    --fonte-secundaria: 'Montserrat Alternates', sans-serif;
+    --size-h1: 2rem;
+    --size-h3: 1.2rem;
+    --cor-branco: white;
+    --cor-branco-fundo:rgb(240, 240, 240);
+    --cor-preto: black;
+    --cor-azul: rgb(1, 1, 199);
+    --cor-azulClaro: #07b2fd;
+    --cor-cinza:#333942;
+    --cor-cinza-escuro:#282d33;
+    --cor-shadow-cinza:gray;
+    --cor-verde: rgb(41, 231, 35);
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+    background-color: var(--cor-branco);
+    color: var(--cor-preto);
+}
+@media (max-width: 400px) {
+    /* Estilos para dispositivos com largura de tela de até 414px */
+    html{
+        font-size: 1rem;
+    }
+  }
+  @media (min-width: 768px){
+    html{
+        font-size: 1rem;
+    }
+  }
+  @media (min-width: 800px){
+    html{
+        font-size: 1rem;
+    }
+  }
+  @media (min-width: 800px) {
+    .html{
+        font-size: 0.9rem;
+    }
+  }
