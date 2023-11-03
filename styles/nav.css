@@ -13,6 +13,16 @@
     width: 50px;
     height: 50px;
 }
+.navegacao__titulo{
+    display: none;
+    font-size: 1rem;
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
 .navegacao__empresa{
     display: flex;
     align-items: center;
@@ -81,6 +91,9 @@
     color: var(--cor-azul);
 }
 @media (min-width: 800px) {
+    .navegacao__titulo{
+        display: block;
+    }
     .navegacao{
         padding: 2% 0;
         width: 100%;
@@ -94,6 +107,14 @@
         height: 40px;
     }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1700px) {
+    .navegacao__logo{
+        width: 60px;
+        height: 60px;
+    }
+
+    .container{
+        padding-left: 2%;
+    }
 
 }
