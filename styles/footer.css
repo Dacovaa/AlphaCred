@@ -5,30 +5,57 @@
     justify-content: space-around;
     background-color: var(--cor-cinza-escuro);
     border-top: 0.5px solid black;
-    padding: 1.5rem;
+    padding: 1.5rem 0.5rem;
+    align-items: center;
 }
 .rodape__titulo{
     font-size: 1.5rem;
     font-weight: 600;
     font-family: var(--fonte-primaria);
     color: var(--cor-branco);
-
+}
+.nota__rodape{
+    color: #c7c7c7;
+    font-size: 0.8rem;
+    padding: 1rem 0;
+    font-weight: 500;
+    line-height: 1.2rem;
 }
 .rodape__contato{
     padding: 1rem 0.5rem;
     border-top: 0.5px solid var(--cor-cinza);
+    font-size: 0.8rem;
+    padding: 1rem 0;
+    font-weight: 500;
+    line-height: 1.2rem;
+    color: #c7c7c7;
 }
-.rodape__contato li a{
-    text-decoration: none;
-    color: var(--cor-branco);
+.desenvolvedor, .rodape__contato li a{
+    color: #c7c7c7;
+}
+.desenvolvimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.desenv{
+    display: flex;
 }
 .rodape__redes{
     display: flex;
     gap: 1rem;
-    padding: 1rem 0.5rem;
+    padding: 0.5rem 0.5rem;
     border-top: 0.5px solid var(--cor-cinza);
+    align-items: center;
+    justify-content: center;
 }
 .rodape__redes li img{
     width: 30px;
     height: 30px;
+}
+.diretrizes{
+    border-bottom: 1px solid var(--cor-azulClaro);
+    border-top: 1px solid var(--cor-azulClaro);
 }

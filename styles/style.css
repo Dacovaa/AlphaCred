@@ -11,7 +11,8 @@
     --size-h1: 2rem;
     --size-h3: 1.2rem;
     --cor-branco: white;
-    --cor-branco-fundo:rgb(240, 240, 240);
+    --cor-branco-fundo:#fcfaf9;
+    --cor-letra-card: #808285;
     --cor-preto: black;
     --cor-azul: rgb(1, 1, 199);
     --cor-azulClaro: #07b2fd;

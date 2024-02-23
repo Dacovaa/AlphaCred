@@ -7,7 +7,7 @@
     width: 90%;
     background-color: var(--cor-branco);
     position: fixed;
-    box-shadow: 0 0 10px 0 var(--cor-preto);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .4);
 }
 .navegacao__logo{
     width: 50px;
