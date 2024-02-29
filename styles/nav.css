@@ -103,7 +103,32 @@
     font-size: 0.9rem;
     color: var(--cor-azul);
 }
+.navegacao__botao{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor-azulClaro);
+    border: 2px solid var(--cor-azulClaro);
+    padding: 1rem 0;
+    border-radius: 15px;
+    width: 10%;
+    transition: background 1s;
+    transition: color 1s;
+}
+.navegacao__botao:hover{
+    transition: background 1s;
+    background-color: var(--cor-azulClaro);
+    color: var(--cor-branco);
+}
 @media (min-width: 800px) {
+    .navegacao__botao{
+        display: flex;
+    }
     .navegacao__titulo{
         display: block;
     }

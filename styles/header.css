@@ -93,10 +93,11 @@
     border: 2px solid var(--cor-branco);
     padding: 1rem 0;
     border-radius: 20px;
-    box-shadow: 0 6px 6px 0 var(--cor-preto);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .4);
     width: 90%;
     transition: background 1s;
     transition: color 1s;
+
 }
 .cabecalho__botao:hover{
     background-color: var(--cor-branco);

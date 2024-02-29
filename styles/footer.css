@@ -43,6 +43,10 @@
 .desenv{
     display: flex;
 }
+.desenv h1{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
 .rodape__redes{
     display: flex;
     gap: 1rem;
