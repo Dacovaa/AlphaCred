@@ -19,6 +19,9 @@
     font-family: var(--fonte-primaria);
     font-weight: 700;
 }
+.navegacao__titulo:hover{
+    text-shadow: 0 0 1px var(--cor-azulClaro);
+}
 .container{
     display: flex;
     align-items: center;
@@ -116,6 +119,7 @@
         flex-direction: row;
         top: auto;
         box-shadow: none;
+        position: relative;
     }
     .navegacao__espaco__itens{
         font-size: 1rem;
@@ -123,6 +127,7 @@
         transition: color 1s;
         transition: border 1s;
         border-bottom: 2px solid var(--cor-branco);
+        padding: 0.5rem 1rem;
     }
     .navegacao__espaco__itens:hover{
         color: var(--cor-azulClaro);
