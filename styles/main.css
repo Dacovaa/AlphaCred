@@ -159,7 +159,6 @@
     flex-direction: column;
     background-color: var(--cor-branco);
     border-bottom: 0.5px solid var(--cor-letra-card);
-    padding: 1rem;
     cursor: pointer;
     transition: background 1s;
 }
@@ -193,6 +192,7 @@ details>summary{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 1rem;
 }
 .conteudo__perguntas__triangulo{
     width: 15px;
