@@ -19,9 +19,6 @@
     font-family: var(--fonte-primaria);
     font-weight: 700;
 }
-.navegacao__titulo:hover{
-    text-shadow: 0 0 1px var(--cor-azulClaro);
-}
 .container{
     display: flex;
     align-items: center;
@@ -42,7 +39,7 @@
     width: auto;
     height: auto;
     transition: all .5s;
-    box-shadow: 0 10px 10px 0 var(--cor-preto);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .4);
 }
 .navegacao__espaco__itens{
     font-weight: 600;
@@ -73,6 +70,7 @@
     align-items: center;
     gap: 0.5rem;
     cursor: pointer;
+    order: 3;
 }
 .navegacao__input{
     display: none;
@@ -104,7 +102,8 @@
     color: var(--cor-azul);
 }
 .navegacao__botao{
-    display: none;
+    display: flex;
+    order: 2;
     align-items: center;
     justify-content: center;
     font-family: var(--fonte-primaria);
@@ -114,7 +113,7 @@
     text-decoration: none;
     color: var(--cor-azulClaro);
     border: 2px solid var(--cor-azulClaro);
-    padding: 1rem 0;
+    padding: 1rem 0.5rem;
     border-radius: 15px;
     width: 10%;
     transition: background 1s;
