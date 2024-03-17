@@ -124,7 +124,7 @@
     background-color: var(--cor-azulClaro);
     color: var(--cor-branco);
 }
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
     .navegacao__botao{
         display: flex;
     }

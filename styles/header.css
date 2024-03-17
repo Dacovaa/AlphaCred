@@ -133,15 +133,20 @@
         padding-top: 5%;
     }
 }
+@media (min-width: 420px){
+    .cabecalho__apresentacao__titulo{
+        font-size: 2.5rem;
+    }
+}
 @media (min-width: 481px){
     .cabecalho{
         padding-top: 15%;
-        height: 60vh;
-        background-size: auto;
+        height: 80vh;
+        background-size:contain;
         background-position: right bottom;
     }
     .cabecalho__apresentacao__titulo{
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         padding-top: 5%;
     }
     .cabecalho__espaco{
@@ -149,19 +154,20 @@
         padding: 2% 0 0 5%;
     }
     .cabecalho__botao{
-        width: 30%;
+        width: 35%;
     }
     .container__cor{
         padding-top: 10%;
     }
 }
-  @media (min-width: 800px) {
+  @media (min-width: 768px) {
    .cabecalho{
-    height: 30vh;
+    height: 40vh;
     align-items: center;
     flex-direction: row-reverse;
     gap: 0.5rem;
     padding: 15% 0 5%;
+    background-size: 70%;
    }
     .cabecalho__escurece{
         padding-left: 5%;
@@ -184,6 +190,7 @@
     .cabecalho{
         padding-top: 15%;
         height: 40vh;
+        background-size: contain;
     }
   }
   @media (min-width: 1700px){
