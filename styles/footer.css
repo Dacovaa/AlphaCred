@@ -71,3 +71,8 @@
     border-bottom: 1px solid var(--cor-azulClaro);
     border-top: 1px solid var(--cor-azulClaro);
 }
+.rodape__contato strong{
+    color: blue;
+    cursor: pointer;
+
+}

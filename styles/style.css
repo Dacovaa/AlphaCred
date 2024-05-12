@@ -32,7 +32,7 @@ body{
     font-family: var(--fonte-primaria);
     font-weight: 500;
     background-color: var(--cor-branco);
-    color: var(--cor-preto);
+    color: var(--cor-cinza-escuro);
 }
 @media (max-width: 400px) {
     /* Estilos para dispositivos com largura de tela de até 414px */
