@@ -112,7 +112,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #e0eef8;
+    background-color: var(--cor-branco);
     padding: 5%;
 }
 .contato__desc{
@@ -159,11 +159,10 @@
 }
 .contato__formulario{
     width: 70%;
-    background: rgb(38,162,251);
-    background: linear-gradient(223deg, rgba(38,162,251,0.5410539215686274) 16%, rgba(184,242,251,0.8183648459383753) 61%);
+    background-color: #f2f2f2;
     border-radius: 5px;
     padding: 2rem 0;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    box-shadow: 1px 0 5px 0 rgba(0, 0, 0, .1);
 }
 .contato__formulario form{
     display: flex;
@@ -184,18 +183,26 @@
 .contato__formulario input{
     height: 1.6rem;
     border-radius: 4px;
-    background-color: #e0eef8 ;
+    background-color: var(--cor-branco) ;
     color: var(--cor-letra-card);
     border: none;
 }
 .contato__formulario input[type="button"]{
-    background-color:white;
-    width: 30%;
-    height: 2rem;
+    background-color:#82A9F4;
+    width: 40%;
+    height: auto;
+    padding: 0.8rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 16px;
+    border: solid 2px #82A9F4;
+    transition: background 1s;
+    transition: color 1s;
 }
 .contato__formulario input[type="button"]:hover{
-    background-color:#b8f2fb ;
-    border: solid 2px black;
+    transition: background 1s;
+    background-color: white ;
+    border: solid 2px #82A9F4;
     color: black;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
 }
@@ -317,10 +324,10 @@ details[open] .conteudo__perguntas__titulo{
         flex-direction: row;
     }
     .conteudo__contato img{
-        width: 40%;
+        width: 50%;
     }
     .contato__desc{
-        width: 50%;
+        width: 100%;
     }
     .conteudo__atendidos{
         height: auto;
@@ -339,7 +346,6 @@ details[open] .conteudo__perguntas__titulo{
     .conteudo__sobre__cartoes {
         flex-direction: row;
         flex-wrap: wrap;
-        padding-bottom: 7%;
         justify-content: space-around;
         width: 50%;
     }
@@ -390,6 +396,12 @@ details[open] .conteudo__perguntas__titulo{
     }
     .conteudo__sobre__cartoes__item{
         width: 40%;
+    }
+    .conteudo__contato img{
+        width: 30%;
+    }
+    .contato__alinha{
+        width: 50%;
     }
   }
   @media (min-width: 1360px) {
