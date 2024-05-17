@@ -187,7 +187,7 @@
     color: var(--cor-letra-card);
     border: none;
 }
-.contato__formulario input[type="button"]{
+.contato__formulario input[type="submit"]{
     background-color:#82A9F4;
     width: 40%;
     height: auto;
@@ -199,7 +199,7 @@
     transition: background 1s;
     transition: color 1s;
 }
-.contato__formulario input[type="button"]:hover{
+.contato__formulario input[type="submit"]:hover{
     transition: background 1s;
     background-color: white ;
     border: solid 2px #82A9F4;
